@@ -1,0 +1,452 @@
+@font-face {
+    font-family: 'Cinzel', serif;
+    src: url(../fonts/Cinzel-Medium.ttf)
+}
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    src: url(../fonts/OpenSans-Medium.ttf)
+}
+
+
+/* header */
+body {
+    background-color: #F5F5F5;
+    max-width: 1240px;
+    width: 86%;
+    margin: 0 auto;
+}
+* {
+    color: #000000;
+    font-family: 'Cinzel', serif;
+}
+button {
+    cursor: pointer;
+}
+
+.container{
+    background-color: #F5EFEF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-inline: 100px
+}
+
+.container > div {
+    align-items: center;
+    background-color: #F5EFEF;
+}
+.container > div img {
+    margin-left: 8px;
+}
+.container > div a {
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.nav-ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 48px;
+    align-items: center;
+}
+.nav-ul > li a {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #75464A;
+    font-family: 'Cinzel', serif;
+}
+.nav-ul > li a:first-child {
+    color: #3F3232;
+}
+
+
+/* home page */
+
+.main > h2 {
+    margin-top: 162px;
+    margin-left: 15px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    font-family: 'Cinzel', serif;
+
+}
+
+.card-wrapper {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card1{
+    border: 1px solid #75464A;
+    padding: 26px 21px 42px 21px;
+    border-radius: 9.61px;
+    text-align: center;
+}
+
+.newstorage {
+    text-align: start;
+    margin-left: 12px;
+    margin-top: 21px;
+    font-family: 'Cinzel', serif;
+    display: none;
+    text-transform: uppercase;
+
+}
+
+.new {
+    color: rgba(255, 0, 0, 1);
+    font-family: 'Cinzel', serif;
+}
+
+.storage {
+    display: none;
+    text-align: start;
+    margin-left: 12px;
+    margin-top: 21px;
+    font-family: 'Cinzel', serif;
+    text-transform: uppercase;
+}
+
+.card1:hover .newstorage {
+    display: block;
+}
+
+.card1:hover .storage {
+    display: block;
+}
+
+.productname {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 27px;
+    padding-inline: 11px;
+}
+
+.productname > h3 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #121111;
+    font-family: 'Cinzel', serif;
+}
+.productname > span {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #000000;
+    font-family: 'Cinzel', serif;
+}
+
+.card1 > button {
+    margin-top: 32px;
+    color: #FFFFFF;
+    background-color: #3F3232;
+    border-radius: 10px;
+    padding: 11px 20px;
+    margin-left: 155px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+.main > button {
+    margin-top: 92px;
+    color: #FFFFFF;
+    background-color: #3F3232;
+    border-radius: 10px;
+    padding: 18px 53px;
+    margin-left: 1030px;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 27px;
+    font-family: 'Cinzel', serif;
+}
+
+
+
+
+/* foooter */
+.footer-wrapper {
+    background-color: #F5EFEF;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 183px;
+    margin-bottom: 99px;
+}
+
+.footer-wrapper > div .perfectflower {
+    display: inline-block;
+    margin-top: 66px;
+    font-family: 'Cinzel', serif;
+}
+
+.footer-wrapper > div span {
+    display: block;
+    margin-top: 13px;
+    font-family: 'Cinzel', serif;
+    text-transform: uppercase;
+}
+
+.footer-wrapper > div .social-media {
+    margin-top: 47px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 128px;
+    width: 100%;
+} 
+
+.footer-information {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-height: 139px;
+    margin-top: 66px;
+}
+.footer-nav{
+    display: flex;
+    flex-direction: column;
+    max-height: 138px;
+    justify-content: space-between;
+    margin-top: 66px;
+}
+.footer-wrapper > div img {
+    margin-left: 8px
+}
+.footer-information > div img {
+    margin-right: 19px;
+}
+.footer-information > div a {
+    font-family: 'Cinzel', serif;
+    color: #75464A;
+    text-transform: uppercase;
+}
+.footer-nav > a {
+    color: #75464A;
+}
+
+.footer-wrapper > div a, span {
+    color: #75464A;
+}
+
+/* gallery page */
+
+.gallery-header {
+    margin-top: 56px;
+    margin-left: 15pxpx;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    font-family: 'Cinzel', serif;
+    text-transform: uppercase;
+}
+
+.gallery-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 104px;
+    gap: 155px;
+    margin-bottom: 200px;
+
+}
+
+.gallery-wrapper > img {
+    border-radius: 10px;
+}
+
+/* hover */
+.gallery-wrapper > img:hover {
+    box-shadow:0px 0px 20px 0px rgba(0, 0, 0, 0.25);
+    ;
+}
+
+
+
+/* about page */
+
+.about-header {
+    margin-top: 162px;
+    font-family: Cinzel;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    font-family: 'Cinzel', serif;
+
+}
+
+.about-wrapper {
+    margin-right: 35px;
+}
+
+.about-wrapper > div p {
+    text-transform: uppercase;
+    max-width: 690px;
+    width: 100%;
+    max-height: 348px;
+    height: 100%;
+    margin-right: 116px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+    font-family: 'Cinzel', serif;
+
+}
+
+.about-card-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.second-block {
+    margin-top: 248px;
+    flex-direction: row-reverse;
+    gap: 150px;
+    margin-bottom: 200px;
+}
+
+.second-block > p {
+    margin-bottom: 83px;
+}
+
+/* FAQ page */
+
+.faq-wrapper {
+    padding-left: 136px;
+    padding-right: 74px;
+}
+
+.faq-header {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    font-family: 'Cinzel', serif;
+    color: #D9D9D9;
+    margin-top: 171px;
+    margin-bottom: 71px;
+}
+
+.faq-wrapper > div h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 34px;
+    text-decoration: underline #75464A;
+    text-underline-offset: 21.5px;
+    padding-bottom: 21px;
+    margin-bottom: 43px;
+}
+
+.faq-wrapper > div p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+    margin-bottom: 144px;
+}
+
+.faq-wrapper > div:last-child {
+    margin-bottom: 111px;
+}
+/* contact page */
+
+.contact-header {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 162px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 70px;
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+
+.contact-wrapper > div p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 29px;
+    text-shadow: 1px 1px black;
+    text-align: center;
+}
+
+.container-for-span > span {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 70px;
+    color:#000000;
+    align-items: center;
+}
+
+.input-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 97px;
+    margin-bottom: 200px;
+}
+
+.input-wrapper > div {  
+    text-transform: uppercase;
+}
+
+.input-wrapper > div > input {
+    max-width: 525px;
+    width: 100%;
+    max-height: 65px;
+    height: 100%;
+    margin-top: 14px;
+    border-radius: 10px;
+    margin-bottom: 90px;
+}
+
+.textarea-map {
+    display: flex;
+    justify-content: space-between;
+}
+
+textarea{
+    max-width: 575px;
+    width: 100% ;
+    height: 400px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    resize: none;
+    padding-left: 32px;
+    padding-top: 38px;
+    color: red;
+}
+iframe {
+    max-width: 575px;
+    width: 100% ;
+    height: 400px; 
+    border-radius: 10px;
+}
+
+.button {
+    padding: 20px 61px;
+    font-family: Cinzel;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    font-family: 'Cinzel', serif;
+    letter-spacing: 3%;
+    color:rgba(255, 255, 255, 1);
+    border: 1px solid rgba(63, 50, 50, 1);
+    border-radius: 10px;
+    background-color: rgba(63, 50, 50, 1);
+    margin-top: 155px;
+    margin-left: 980px;
+    cursor: pointer;
+}
+
